@@ -88,7 +88,7 @@ export const ProductTable = styled.table`
       }
     }
 
-    &:disabled {
+    &:disabled, &[aria-disabled] {
       svg {
         color: ${lighten(0.25, '#7159c1')};
         cursor: not-allowed;
